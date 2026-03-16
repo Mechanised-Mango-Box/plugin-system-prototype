@@ -1,0 +1,24 @@
+{
+  "name": "plugin-system-prototype",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Mechanised-Mango-Box/plugin-system-prototype#readme",
+  "bugs": {
+    "url": "https://github.com/Mechanised-Mango-Box/plugin-system-prototype/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mechanised-Mango-Box/plugin-system-prototype.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "^5.9.3"
+  }
+}
