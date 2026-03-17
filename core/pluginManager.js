@@ -36,6 +36,17 @@ class PluginManager {
             console.log(`[REFRESH] Refreshed: ${plugin.name}`)
         });
     }
+
+    fetchAll() {
+        this.plugins.forEach(plugin => {
+            if (plugin.onFetch === null) {
+                return;
+            }
+            console.log(`[FETCH] Fetching: ${plugin.name}`)
+            plugin.module.onRefresh();
+            console.log(`[FETCH] Fetching: ${plugin.name}`)
+        });
+    }
 }
 
 module.exports = PluginManager;

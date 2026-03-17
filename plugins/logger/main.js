@@ -6,12 +6,12 @@ module.exports = {
     onInit() {
         console.log('[LoggerPlugin] Loaded');
     },
+    onFree() {
+        console.log('[LoggerPlugin] Unloaded');
+    },
 
     onRefresh() {
         console.log(`[LoggerPlugin] Refreshed @ ${new Date()}`);
     },
 
-    onFree() {
-        console.log('[LoggerPlugin] Unloaded');
-    },
 };
