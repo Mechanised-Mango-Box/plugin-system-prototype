@@ -1,1 +1,1 @@
-node ./core/index.js
+node ./index.js
